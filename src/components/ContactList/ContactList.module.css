@@ -1,0 +1,23 @@
+.contact {
+    -webkit-box-pack: center;
+    border-radius: 4px;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+    padding: 0;
+    display: flex;
+}
+
+.contacts {
+    border: 3px solid rgb(27, 26, 26);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+}

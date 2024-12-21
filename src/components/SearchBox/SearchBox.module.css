@@ -1,0 +1,18 @@
+.input {
+    padding: 8px 12px;
+    font: inherit;
+    cursor: pointer;
+    width: 400px;
+    display: flex;
+}
+
+.input :hover,
+:focus {
+    border-color: blue;
+}
+
+.text {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}

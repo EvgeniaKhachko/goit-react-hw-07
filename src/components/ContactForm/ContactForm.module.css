@@ -1,0 +1,43 @@
+.error {
+    color: red;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 12px;
+    border: 3px solid rgb(26 25 25);
+    border-radius: 4px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    color: rgb(16 15 15);
+    font-size: 20px;
+    text-align: left;
+}
+
+.label :hover,
+:focus,
+:active {
+    border-color: blue;
+}
+
+.input {
+    padding: 8px 12px;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+
+.button {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 3px solid rgb(36 33 33);
+    font-size: 20px;
+    background-color: lightgray;
+}
